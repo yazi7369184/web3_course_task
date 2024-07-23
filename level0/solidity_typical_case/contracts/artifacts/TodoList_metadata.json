@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "todos",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "text",
+						"type": "string"
+					},
+					{
+						"internalType": "bool",
+						"name": "completed",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TodoList.sol": "TodoList"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/StructDeclaration.sol": {
+			"keccak256": "0x265845ccd61295a479fa02cb577e983745ae585cf5e4cc8faff1212851706e7e",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://44937ab408779b32fd6a64e268b301eb557a84a8cc67bf782d3ce4963fa931e4",
+				"dweb:/ipfs/QmdpSQNBcdxEwvQgfZTeiUMhaFUmH8K8sC7mbVjHUbyuu3"
+			]
+		},
+		"contracts/TodoList.sol": {
+			"keccak256": "0x2c7e8e46012270fe403e37ca0db12cb65208c509930b797f2b89d7ca9d5fda64",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://9d0387b355678363095245714c6b50f140a0b862527fd3fc48566020601872ba",
+				"dweb:/ipfs/QmQ8FWGcY8eZzm1H5br1qWMu3w5Mh1vStd9QxC1vXpQX8i"
+			]
+		}
+	},
+	"version": 1
+}

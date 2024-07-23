@@ -329,11 +329,11 @@
 			]
 		},
 		"level1/project_train/Bank.sol": {
-			"keccak256": "0xb7a2c89a93fb2f77effa8a719f6b8f2b1352aa0b972c8175df483a25921a3699",
+			"keccak256": "0xb0024b800801ede3caddaa6d54c8773b0faa225ab08e1eb8b703faaa09c7de31",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://920bf070fbaf1197c2028d7f4762192b56d848d0e904eb6b34269657664cbcff",
-				"dweb:/ipfs/QmcdJPDy2NU4BSZ3pmo2t979Tp676okCVLQg3nzxyUzas3"
+				"bzz-raw://da7662b1742a1988dd395fa46d253180c7b0f5ee4104a02d2c33f1ee6e280e70",
+				"dweb:/ipfs/QmR1BWA9hPiUczLj59WBhbJk9TtZuD1E7wVEoUPhrsVcud"
 			]
 		}
 	},

@@ -40,6 +40,9 @@ contract Bank {
         return address(this).balance;
     }
 
+ 
+
+
     //存款ERC20代币
     function depositERC20Token(address token, uint256 amount) external {
         require(token != address(0), "Invalid token address");
