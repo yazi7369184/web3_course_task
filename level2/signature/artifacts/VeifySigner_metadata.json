@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_msgHash",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_signature",
+						"type": "bytes"
+					},
+					{
+						"internalType": "address",
+						"name": "_signer",
+						"type": "address"
+					}
+				],
+				"name": "verify",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"verify(bytes32,bytes,address)": {
+					"details": "通过ECDSA，验证签名地址是否正确，如果正确则返回true _msgHash为消息的hash _signature为签名 _signer为签名地址"
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level2/signature/VeifySigner.sol": "VeifySigner"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level2/signature/VeifySigner.sol": {
+			"keccak256": "0xdc704ddda168d0f230f483083d0a1e1ef60b59752b3a6da42869fdd57e5902bb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b9b827c94865d6df880c25c603177948ca153923208bdedf217d93af7e3238fb",
+				"dweb:/ipfs/QmSavSmQmg2mEMwakW54DMFJcWb61fEdpEtqrPGvWo5vwt"
+			]
+		}
+	},
+	"version": 1
+}
