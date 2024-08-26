@@ -23,7 +23,7 @@
 						"type": "address"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "payable",
 				"type": "constructor"
 			},
 			{
@@ -857,11 +857,11 @@
 			]
 		},
 		"level2/signature/SignatureNFT.sol": {
-			"keccak256": "0xbeb1807966242198df970f9af8fbb6d585fb2dc77cf45d2cfb2db3463d3b4e69",
+			"keccak256": "0xb47f157e52bdcc10f14e5245ec7a4ef2f003c5a4d03d5a4eda849d4d393fc777",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e5cb0727fc5ce72d65eb184a400cc5b608c37c25c108667405c1360739d9e962",
-				"dweb:/ipfs/QmQBzDRCBrE7Xd4kuMxsVMJqVkAiCkurArQu92sxjPG9MK"
+				"bzz-raw://fda04280b47bf402b576d1a3e1baebf6c1e2a866b6293c04e85e5639a6c4d9c2",
+				"dweb:/ipfs/QmSuC3CYKEACGk7uReMukSyb66XKDe81DSZGLwcowqpxr4"
 			]
 		}
 	},

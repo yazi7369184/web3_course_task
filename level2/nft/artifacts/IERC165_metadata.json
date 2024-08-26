@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes4",
+						"name": "interfaceId",
+						"type": "bytes4"
+					}
+				],
+				"name": "supportsInterface",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"supportsInterface(bytes4)": {
+					"notice": "如果合约实现了查询的`interfaceId`，则返回true"
+				}
+			},
+			"notice": "合约可以声明支持的接口，供其他合约检查    ",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level2/nft/IERC165.sol": "IERC165"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level2/nft/IERC165.sol": {
+			"keccak256": "0xe628208f05c65bbb8b26c6a8834322b4d00007e6339b4a1f001d7237b61d9f9a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://cc4274b96e4495d019a6afd0f40d4fde4b5d602aa4b74e18a1b0cf90d7ee3116",
+				"dweb:/ipfs/QmP5ums5Lv9hQ1b723Ef8NC79wBmz5XMmJo4rxXCebxHW1"
+			]
+		}
+	},
+	"version": 1
+}

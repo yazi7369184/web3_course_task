@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"notice": "ERC721标准接口",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level2/nft/IERC721.sol": "IERC7"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level2/nft/IERC721.sol": {
+			"keccak256": "0xb8209438b5a1e71912bfac37ee2fd31166ea9896adcd2f3cbf1d9a503bab6fc4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://75dc094f345fdcd00b707e0ce27c353d9c4d97f86189b1049ffde4ec21349921",
+				"dweb:/ipfs/QmaNTRpdiWcWHETfFWShVqJLdKoHTVZpVCjb7bgdDff8fs"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"level2/nft/IERC721Receiver.sol": "Name"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"level2/nft/IERC721Receiver.sol": {
+			"keccak256": "0x18f4cf77329b1a4537c94d58ab408b873e788c6aab431ee15ddb022085ed64a2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0ec98a1337e58781240c8a39a4bbac940b850d34370ac4054577cfea644b93e6",
+				"dweb:/ipfs/QmRaybdqRt8pGUoSks5H4YymhwdUx8pXbqwqsSBkALn7bv"
+			]
+		}
+	},
+	"version": 1
+}

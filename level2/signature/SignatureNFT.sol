@@ -10,7 +10,7 @@ contract SignatureNFT is ERC721 {
 
     // 构造函数，初始化NFT合集的名称、代号、签名地址
     constructor(string memory _name, string memory _symbol, address _signer)
-    ERC721(_name, _symbol)
+    ERC721(_name, _symbol) payable 
     {
         signer = _signer;
     }
